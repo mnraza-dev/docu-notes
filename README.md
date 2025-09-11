@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📒 Docu Notes
 
-## Getting Started
+Docu Notes is a modern and minimal **note-taking application** designed to help you capture ideas, organize thoughts, and stay productive.  
+Built with simplicity and speed in mind, it provides a distraction-free space for jotting down notes, managing tasks, and storing important information securely.  
 
-First, run the development server:
+---
 
+## ✨ Features
+
+- 📝 **Create, Edit & Delete Notes** – Manage your notes with an intuitive editor.  
+- 🔍 **Search & Filter** – Quickly find notes by title or keywords.  
+- 🗂 **Categories & Tags** – Organize notes with tags for better structure.  
+- ☁️ **Cloud Sync (optional)** – Access your notes across devices.  
+- 🌓 **Dark / Light Mode** – Seamless switch between themes.  
+- 🔒 **Secure & Private** – Your data stays with you.  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (Vite) / Next.js  
+- **State Management:** Redux Toolkit / Zustand / React Query (based on your choice)  
+- **Backend (optional):** Node.js + Express / Django REST Framework  
+- **Database:** MongoDB / PostgreSQL / SQLite  
+- **Styling:** Tailwind CSS + ShadCN/UI  
+- **Auth (optional):** JWT / OAuth  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/mnraza-dev/docu-notes.git
+cd docu-notes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+pnpm install   # or npm install / yarn install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+pnpm dev   # or npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+pnpm build
 
-## Learn More
+# 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+docu-notes/
+│── src/
+│   ├── components/   # UI components
+│   ├── pages/        # App pages
+│   ├── hooks/        # Custom hooks
+│   ├── store/        # State management
+│   ├── utils/        # Helper functions
+│   └── assets/       # Static assets
+│
+│── public/           # Public files
+│── package.json
+│── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
 
-## Deploy on Vercel
+# 📜 License
+ This project is licensed under the MIT License – see the LICENSE
+ file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🌟 Acknowledgements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Inspired by productivity tools like Notion, Obsidian, and Evernote.
+
