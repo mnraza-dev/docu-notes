@@ -49,7 +49,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16">
-                                    Build and Ship 10x faster with NS
+                                   Your Notes. Your Workflow. Simplified.
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -58,7 +58,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mt-8 max-w-2xl text-pretty text-lg">
-                                    Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.
+                                  From quick notes to detailed documents, Docu Notes makes it easy to write, search, and stay productive wherever you are.
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -82,7 +82,7 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
+                                                <span className="text-nowrap">Start Writing</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -93,7 +93,7 @@ export default function HeroSection() {
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5 text-base">
                                         <Link href="#link">
-                                            <span className="text-nowrap">Request a demo</span>
+                                            <span className="text-nowrap">See it in Action</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
