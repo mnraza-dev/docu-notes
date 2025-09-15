@@ -40,7 +40,8 @@ export const HeroHeader = () => {
                                 href="/"
                                 aria-label="home"
                                 className="flex items-center space-x-2">
-                                <Logo />
+                               <span className='text-xl font-semibold'> Docu Notes </span>
+                                {/* <Logo /> */}
                             </Link>
 
                             <button
