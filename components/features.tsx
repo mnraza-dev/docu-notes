@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Code2Icon, Edit, Edit2, Settings2, Sparkles, Zap, ZapIcon } from 'lucide-react'
+import { Code2Icon, Edit, Settings2 } from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
